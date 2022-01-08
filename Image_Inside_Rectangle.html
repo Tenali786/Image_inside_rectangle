@@ -1,0 +1,196 @@
+<html>
+    <head><title>Tenali Ramkrishna</title>
+        
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background:rgb(39, 39, 15);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .Backrect{
+            border-left:10px solid red;
+            border-right:10px solid red;
+            width:340px;
+            height:350px;
+            position:relative;
+            border-radius: 10px;
+            transform:rotate(50deg);
+            animation:back 3s linear infinite;
+
+        }
+        .Backrect img{
+            width:345px;
+            height:350px;
+            transform:rotate(-50deg);
+            border-radius:15px
+
+        }
+        .Forntrect{
+            border-radius: 10px;
+
+            position:absolute;
+            top:-3;
+            left:-10;
+            width:360px;
+            height:335px;
+            border-top:10px solid red;
+            border-bottom:10px solid red;
+            animation:fornt 3s linear infinite;
+        }
+
+
+        @keyframes back{
+            0%{
+                border-right:10px solid yellow;
+                border-left:10px solid yellow;
+            }
+            20%{
+                border-right:10px solid rgb(31, 189, 123);
+                border-left:10px solid rgb(31, 189, 123);
+            }
+            50%{
+                border-left:10px solid green;
+                border-right:10px solid green;
+
+            }
+            70%{
+                border-left:10px solid rgb(245, 4, 145);
+                border-right:10px solid rgb(245, 4, 145);
+
+            }
+            90%{
+                border-left:10px solid rgb(0, 238, 255);
+                border-right:10px solid rgb(0, 238, 255);
+
+            }
+            100%{
+                border-left:10px solid blue;
+                border-right:10px solid blue;
+
+            }
+        }
+
+        @keyframes fornt{
+            0%{
+                border-bottom:10px solid yellow;
+                border-top:10px solid yellow;
+            }
+            20%{
+                border-bottom:10px solid rgb(31, 189, 123);
+                border-top:10px solid rgb(31, 189, 123);
+            }
+            50%{
+                border-top:10px solid green;
+                border-bottom:10px solid green;
+                
+            }
+            70%{
+                border-top:10px solid rgb(245, 4, 145);
+                border-bottom:10px solid rgb(245, 4, 145);
+
+            }
+            90%{
+                border-top:10px solid rgb(0, 238, 255);
+                border-bottom:10px solid rgb(0, 238, 255);
+                
+            }
+            100%{
+                border-top:10px solid blue;
+                border-bottom:10px solid blue;
+
+            }
+        }
+
+        .hole1{
+            /* border:3px solid red; */
+            width:15px;
+            height:15px;
+            position:absolute;
+            top:-60px;
+            left:145px;
+            border-radius:50%;
+            background:rgb(39, 39, 15);
+            color:white;
+            font-weight:bolder;
+            font-size:20px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+        }
+
+        .hole2{
+            /* border:3px solid red; */
+            width:15px;
+            height:15px;
+            position:absolute;
+            top:185px;
+            left:-63px;
+            border-radius:50%;
+            background:rgb(39, 39, 15);
+            color:white;
+            font-weight:bolder;
+            font-size:20px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+        }
+
+        .hole3{
+            /* border:3px solid red; */
+            width:15px;
+            height:15px;
+            position:absolute;
+            bottom:-59px;
+            left:185px;
+            border-radius:50%;
+            background:rgb(39, 39, 15);
+            color:white;
+            font-weight:bolder;
+            font-size:20px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+        }
+
+        .hole4{
+            /* border:3px solid red; */
+            width:15px;
+            height:15px;
+            position:absolute;
+            bottom:185px;
+            right:-66px;
+            border-radius:50%;
+            background:rgb(39, 39, 15);
+            color:white;
+            font-weight:bolder;
+            font-size:20px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+
+    </style>
+    </head>
+<body>
+    <div class="Backrect">
+        <img src="Files/child.jpg">
+        <span class="hole1">+</span>
+        <span class="hole2">+</span>
+        <span class="hole3">+</span>
+        <span class="hole4">+</span>
+
+        <div class="Forntrect"> </div>
+
+    </div>
+</body> 
+</html>
